@@ -1,0 +1,108 @@
+/* design initiating for this page  */
+
+
+#container{
+    height: 600px;
+    width : 1100px;
+    border: 5px solid rgb(210, 115, 14);
+    border-radius: 30px;
+    background-color: #48D1CC;
+}
+.small{
+    height: 550px;
+    width: 400px;
+    background-color: white;
+    border: 4px solid black;
+    margin-top: 22px;
+    float:left;
+    margin-left: 50px;
+    border-radius: 30px;
+    
+}
+#small2{
+    margin-left: 20px;
+    height: 545px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 30px;
+    float :left;
+    margin-top: 22px;
+    background-color: white;
+   
+}
+
+#small3{
+    
+    height: 30px;
+    width: 150px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color : #00008B;
+    margin-left: 918px;
+    margin-top: 270px;
+    cursor: pointer;
+    color:white;
+    text-align: center;
+    text-align: center;
+}
+
+body{
+    background-color:rgb(255, 255, 128);
+    justify-content: center;
+    display: flex;
+    height : 100vh ;
+    align-items: center;
+    
+}
+.image{
+    margin-top: 30px;
+    margin-left: 80px;
+    padding : 4px;
+    width: 10%;
+    font-weight: bold;
+}
+.small span{
+   margin-top: 1000px;
+}
+.button{
+    
+    width: 130px;
+    padding :5px;
+    margin : 27px 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:#48D1CC ;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.span{
+    font-weight: bold;
+}
+
+#spandiv{
+    text-align: center;
+    font-weight: bold;
+   margin-top: 10px;
+    font-size: 20px;
+    padding : 30px 0px 0px 0px;
+    
+}
+#right {
+    height: 30px;
+    width: 30px;
+    
+}
+
+
+.as{
+    width: 100px;
+    height: 25px;
+    margin-top: 30px;
+    border: 3px solid #696969;
+    border-radius: 20%;
+    font-weight: bold;
+}

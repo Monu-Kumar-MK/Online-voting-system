@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVM Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+   <div id ="container">
+    <div class = "small">
+
+        <!-- inserting the images for party sybmol  -->
+
+        <img class = "image" src="https://logos-world.net/wp-content/uploads/2022/06/BJP-Logo.png" alt="lodding"> 
+        <span class = "span">vote for Bjp</span>
+        <br>
+        <img class = "image" src="https://th.bing.com/th/id/R.f546a1df0c13f6ce5a51b14322231dd1?rik=4Dr7tXI%2f1%2fF2mA&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2f7Ta%2fp9z%2f7Tap9zdRc.png&ehk=Q1PFPr3O8AZeRESaRB7takwU8G4WbL23jtyoVSOtxXo%3d&risl=&pid=ImgRaw&r=0" alt="">
+        <span class = "span">Vote for Congress</span>
+        <br>
+        <img class = "image" src="https://seeklogo.com/images/B/bsp-logo-450EC6A522-seeklogo.com.png" alt="">
+        <span class = "span">Vote for Bsp</span>
+        <br>
+        <img class = "image" src="https://qrius.com/wp-content/uploads/2018/01/AAP_symbol.svg_-700x700.png" alt="">
+        <span class = "span">Vote for AAP</span>
+        <br>
+        <img class = "image" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Indian_Election_Symbol_Hammer_Sickle_and_Star.png" alt="">
+        <span class = "span">Vote for CP</span>
+        <br>
+        <img class = "image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Indian_Election_Symbol_Book.svg/1024px-Indian_Election_Symbol_Book.svg.png" alt="">
+        <span class = "span">Vote for Nap</span>
+    </div>
+    <div  id ="small2">
+        
+        <!-- creating the buttons and add the events for taking the action in client side  -->
+
+        <button id = "bjpbutton" class = "button" onclick="action('bjpbutton')">Vote</button><button class= "as" id ="bjpid">Initiating..</button>
+        <button class = "button" id = "congressbutton" onclick="action('congressbutton')" >Vote</button><button class = "as" id = "congressid">Initiating..</button>
+        <button class = "button" id = "bspbutton" onclick="action('bspbutton')">Vote</button> <button class = "as" id = "bspid">Initiating..</button>
+        <button class="button" id = "aapbutton" onclick="action('aapbutton')">Vote</button> <button class = "as" id = "aapid">Initiating..</button>
+        <button class="button" id = "cpbutton" onclick="action('cpbutton')">Vote</button> <button class = "as" id = "cpid">Initiating..</button>
+        <button class="button" id ="napbutton" onclick="action('napbutton')">Vote</button> <button class = "as" id = "napid">Initiating..</button>
+
+        
+        
+    </div>
+    
+    <div id = "small3" >
+
+        <!-- creating a new button for show the result   -->
+        
+        <span id = "spandiv">Show Result</span>
+
+    </div>
+    
+    
+   </div>
+   
+<script src="script.js"></script>
+</body>
+</html>
